@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    justify-content: space-around;
+   
+    height: 100vh;
+}
+
+.padre{
+    width: 500px;
+    height: 500px;
+    border: 2px solid greenyellow;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.hijo1{
+    width: 30%;
+    height: 30%;
+    border: 2px solid turquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nieto{
+    width: 30%;
+    height: 30%;
+    border: 2px solid palevioletred
+}
+
+.hijo2{
+    width: 30%;
+    height: 30%;
+    border: 2px solid turquoise;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.padre2{
+    width: 500px;
+    height: 500px;
+    border: 2px solid greenyellow;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+

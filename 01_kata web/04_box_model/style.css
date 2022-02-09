@@ -1,0 +1,61 @@
+body{
+    background-color: white;
+}
+
+.navbar{
+    height: 80px;
+    /* border: 1px black solid; */
+}
+
+.tools{
+    height: 50px;
+    /* border: 1px red solid; */
+    margin-left: 1100px;
+}
+
+.main{
+   width: 900px;
+   height: 400px;
+   margin:auto;
+   margin-top: 80px;
+   /* border: 1px green solid;  */
+}
+
+.imagen_google{
+    /* border: 1px saddlebrown solid; */
+    padding-left: 325px;
+}
+
+.vainas{
+border: 1px black solid;
+}
+
+.toolbar{
+    height:40px;
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    /* border: 1px lime solid; */
+}
+
+input{
+    height: 30px;
+    width: 600px;
+    border-radius: 25px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+p{
+    color: black;
+    margin-left: 275px;
+
+
+}
+
+button{
+    height: 27px;
+    width: 200px;
+    margin-left: 65px;
+
+}

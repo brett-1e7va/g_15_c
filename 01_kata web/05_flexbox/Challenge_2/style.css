@@ -1,0 +1,59 @@
+
+body{
+    display: flex;
+}
+
+.bandera{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(7, 7, 99);
+    display: flex;
+ 
+}
+
+.izq{
+    width: 30%;
+    /* border: 2px black solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.blanco_izq{
+    width: 100%;
+    height: 45%;
+    background-color: white;
+    display: flex;
+    border: 2px black solid;
+}
+
+.red_izq{
+    width: 85%;
+    height: 85%;
+    background-color: red;
+    display: flex;
+}
+
+.blanco_izq_abajo{
+    width: 100%;
+    height: 45%;
+    background-color: white;
+    border: 2px black solid;
+    display: flex;
+    
+}
+.rojo_izq_abajo{
+    width: 85%;
+    height: 85%;
+    background-color: red;
+    display: flex;
+
+}
+
+.der{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    border: 2px greenyellow solid;
+}
