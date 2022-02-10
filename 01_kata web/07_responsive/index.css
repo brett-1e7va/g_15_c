@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.padre{
+    width: 100%;
+    height: 100vh;
+    border: 1px black solid;
+    display: flex;
+}
+
+.azul1{
+    width: 33%;
+    height: 100vh;
+    border: 1px black solid;
+    background-color: blue;
+}
+
+.azul2{
+    width: 33%;
+    height: 100vh;
+    border: 1px black solid;
+    background-color: blue;
+}
+
+.naranja{
+    width: 34%;
+    height: 100vh;
+    border: 1px black solid;
+    background-color: orange;
+}
+
+@media only screen and (max-width: 900px){
+
+    .padre{
+        width: 100%;
+        height: 100vh;
+        border: 1px black solid;
+        display: flex;
+      
+        flex-wrap: wrap;
+    }
+    
+    .azul1{
+        width:49%;
+        height: 100vh;
+        border: 1px black solid;
+        background-color: blue;
+    }
+    
+    .azul2{
+        width: 50%;
+        height: 100vh;
+        border: 1px black solid;
+        background-color: blue;
+    }
+    
+    .naranja{
+        width: 100%;
+        height: 100vh;
+        border: 1px black solid;
+        background-color: orange;
+    }
+}
+    
+@media only screen and (max-width: 600px){
+
+    .padre{
+        width: 100%;
+        height: 100vh;
+        border: 1px black solid;  
+    }
+    
+    .azul1{
+        width:100%;
+        height: 100vh;
+        border: 1px black solid;
+        background-color: blue;
+    }
+    
+    .azul2{
+        width: 100%;
+        height: 100vh;
+        border: 1px black solid;
+        background-color: blue;
+    }
+    
+    .naranja{
+        width: 100%;
+        height: 100vh;
+        border: 1px black solid;
+        background-color: orange;
+    }
+}
